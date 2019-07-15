@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>E-commerce</title>
+
+		<!-- Fichiers CSS -->
+		<link rel="stylesheet" href="assets/css/styles.css">
+	</head>
+	<body>
+		<!-- Barre supérieure -->
+		<section class="container">
+			<div class="row">
+				<div class="col-2 d-none d-md-block">
+					<p><i class="fas fa-phone"></i> 212 123 456 789</p>
+				</div>
+				<div class="col-2 d-none d-md-block">
+					<p><i class="far fa-envelope"></i> support@mimity.com</p>
+				</div>
+				<div class="col-7 col-md-3">
+					<span><i class="fab fa-facebook-f"></i></span>
+					<span><i class="fab fa-twitter"></i></span>
+					<span><i class="fab fa-instagram"></i></span>
+				</div>
+				<div class="col-3 text-right">
+					<p>EN | RU</p>
+				</div>
+				<div class="col-2">
+					<p>Hi, John</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="assets/img/logo.svg" alt="Logo"> Mimity</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Shop
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Mega Menu
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Account
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Blog
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Pages
+							</a>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+					</form>
+					<div>
+						<i class="fas fa-shopping-cart"></i>
+						<span class="badge badge-primary">4</span>
+					</div>
+				</div>
+			</div> <!-- /container -->
+		</nav>
+		<!-- Image "cintres" -->
+		<section class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<p>Brand New</p>
+					<h1>High Quality Clothes</h1>
+					<a href="#" class="btn btn-primary rounded-pill">SHOP NOW</a>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Partie principale -->
+		<main class="container">
+			<!-- Section 1 : Rayons -->
+			<section class="row">
+				<!-- Men's Wear -->
+				<div class="col-6">
+					<div class="card">
+						<div class="row no-gutters">
+							<div class="col-md-6 order-md-2">
+								Image
+							</div>
+							<div class="col-md-6 order-md-1">
+								<div class="card-body">
+									<h1 class="card-title">Men's Wear</h1>
+									<p class="card-text d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum minima, magnam quam quisquam. Ipsum, provident.</p>
+									<p class="card-text"><a href="#" class="btn btn-primary rounded-pill">SHOP NOW</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- /col-6 Men's Wear -->
+				
+				<!-- Women's Wear -->
+				<div class="col-6">
+					<div class="card">
+						<div class="row no-gutters">
+							<div class="col-md-6 order-md-2">
+								Image
+							</div>
+							<div class="col-md-6 order-md-1">
+								<div class="card-body">
+									<h1 class="card-title">Women's Wear</h1>
+									<p class="card-text d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum minima, magnam quam.</p>
+									<p class="card-text"><a href="#" class="btn btn-secondary rounded-pill">SHOP NOW</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- /col-6 Women's Wear -->
+
+				<!-- Sunglasses -->
+				<div class="col-6">
+					<div class="card text-white">
+						<img src="assets/img/sunglasses.jpg" class="card-img" alt="Lunettes de soleil">
+						<div class="card-img-overlay">
+							<h1 class="card-title">Sunglasses</h1>
+							<p class="card-text d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum minima, magnam quam quisquam. Ipsum, provident.</p>
+							<p class="card-text"><a href="#" class="btn btn-warning rounded-pill">SHOP NOW</a></p>
+						</div>
+					</div>
+				</div> <!-- /col-6 Sunglasses -->
+
+				<!-- Backpacks -->
+				<div class="col-6">
+					<div class="card text-white">
+						<img src="assets/img/backpack.jpg" class="card-img" alt="sac à dos">
+						<div class="card-img-overlay">
+							<h1 class="card-title">Backpacks</h1>
+							<p class="card-text d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum minima, magnam quam quisquam. Ipsum, provident.</p>
+							<p class="card-text"><a href="#" class="btn btn-success rounded-pill">SHOP NOW</a></p>
+						</div>
+					</div>
+				</div> <!-- /col-6 Backpacks -->
+
+				<!-- Bouton All categories -->
+				<div class="col-12 text-center">
+					<p><a href="#" class="btn btn-outline-secondary rounded-pill">All categories</a></p>
+				</div> <!-- /col-12 Bouton -->
+			</section> <!-- /row Rayons -->
+
+			<!-- Section 2 : Flash -->
+			<section class="row">
+				<div class="col-12">
+					<p><i class="fas fa-bolt"></i> Flash deals : <span>05:59:32</span></p>
+				</div> <!-- /col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="row no-gutters">
+							<div class="col-md-6 order-md-2">
+								Image
+							</div>
+							<div class="col-md-6 order-md-1">
+								<div class="card-body">
+									<h1 id="titre" class="card-title">Legendary Whitetails Heavyweight Hoodie</h1>
+									<p class="card-text d-none d-lg-block">$44.99 <span>$59.99</span></p>
+									<p class="card-text"><a href="#" class="btn btn-primary rounded-pill">Add to cart</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- /col-6 -->
+				<div class="col-6">
+					<div class="card">
+						<div class="row no-gutters">
+							<div class="col-md-6 order-md-2">
+								Image
+							</div>
+							<div class="col-md-6 order-md-1">
+								<div class="card-body">
+									<h1 class="card-title">Casual Floral Print 3/4 Sleeve Shirt</h1>
+									<p class="card-text d-none d-lg-block">$18.69 <span>$21.99</span></p>
+									<p class="card-text"><a href="#" class="btn btn-primary rounded-pill">Add to cart</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- /col-6 -->
+			</section> <!-- /row Flash -->
+
+			<!-- Section 3 : Collections -->
+			<section class="row">
+				<!-- New Arrivals -->
+				<div class="col-sm-6 col-md-4">
+					<div class="card text-white mb-3">
+						<img id="arrivals" src="assets/img/1-3.jpeg" class="card-img" alt="Cintres">
+						<!-- <div class="card-img-overlay">
+							<h1 class="card-title">New Arrivals</h1>
+						</div> -->
+					</div>
+				</div><!-- /col New Arrivals -->
+
+				<!-- Crossbody Bags et Winter Collection-->
+				<div class="col-sm-6 col-md-4">
+					<div class="row">
+						<!-- Crossbody Bags -->
+						<div class="col-6 col-sm-12">
+							<div class="card text-white mb-3">
+								<img src="assets/img/2-2.jpeg" class="card-img" alt="Crossbody Bags">
+								<div class="card-img-overlay">
+									<h1 class="card-title">Crossbody Bags</h1>
+								</div>
+							</div>
+						</div><!-- /col Crossbody Bags -->
+						<!-- Winter Collection-->
+						<div class="col-6 col-sm-12 ">
+							<div class="card text-white mb-3">
+								<img src="assets/img/3-2.jpeg" class="card-img" alt="Winter Collection">
+								<div class="card-img-overlay">
+									<h1 class="card-title">Winter Collection</h1>
+								</div>
+							</div>
+						</div><!-- /col Winter Collection-->
+					</div> <!-- /row-->
+				</div> <!-- /col Crossbody Bags et Winter Collection-->
+
+				<!-- Accessories et Hats-->
+				<div class="col-md-4">
+					<div class="row">
+						<!-- Accessories-->
+						<div class="col-6 col-md-12">
+							<div class="card text-white mb-3">
+								<img src="assets/img/4.jpeg" class="card-img" alt="Accessories">
+								<div class="card-img-overlay">
+									<h1 class="card-title">Accessories</h1>
+								</div>
+							</div>
+						</div><!-- /col Accessories-->
+						<!-- Hats-->
+						<div class="col-6 col-md-12">
+							<div class="card text-white mb-3">
+								<img src="assets/img/5.jpeg" class="card-img" alt="Hats">
+								<div class="card-img-overlay">
+									<h1 class="card-title">Hats</h1>
+								</div>
+							</div>
+						</div><!-- /col Hats-->
+					</div>
+				</div><!-- /col Accessories et Hats-->
+			</section> <!-- /row Collections -->
+
+			<!-- Section 4 : Mis en avant -->
+			<section class="row">
+				<div class="col-6 col-md-3">
+					<div class="card">
+						<img src="assets/img/1-small.jpg" class="card-img-top" alt="Hanes Hooded Sweatshirt">
+						<div class="card-body">
+							<h1 class="card-title">Hanes Hooded Sweatshirt</h1>
+							<p class="card-text">New arrival</p>
+							<p class="card-text">$18.56</p>
+							<a href="#" class="btn btn-outline-primary rounded-pill  btn-block">Add to cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3">
+					<div class="card">
+						<img src="assets/img/2-small.jpg" class="card-img-top" alt="The Flash Logo T-shirt">
+						<div class="card-body">
+							<h1 class="card-title">The Flash Logo T-shirt</h1>
+							<p class="card-text">$16.64</p>
+							<p class="card-text text-center"><span>J</span><span>N</span><span>R</span></p>
+							<a href="#" class="btn btn-outline-primary rounded-pill  btn-block">Add to cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3">
+					<div class="card">
+						<img src="assets/img/3-small.jpg" class="card-img-top" alt="Open Front Cropped Cardigans">
+						<div class="card-body">
+							<h1 class="card-title">Open Front Cropped Cardigans</h1>
+							<p class="card-text">20% Off</p>
+							<p class="card-text"><span>$19.00</span> $15.20</p>
+							<a href="#" class="btn btn-outline-primary rounded-pill  btn-block">Add to cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3">
+					<div class="card">
+						<img src="assets/img/4-small.jpg" class="card-img-top" alt="Cotton Fleece Long Hoodie">
+						<div class="card-body">
+							<h1 class="card-title">Cotton Fleece Long Hoodie</h1>
+							<p class="card-text"><span>$19.00</span> $15.20</p>
+							<p class="card-text text-center"><span>V</span><span>B</span><span>V</span></p>
+							<a href="#" class="btn btn-outline-primary rounded-pill  btn-block">Add to cart</a>
+						</div>
+					</div>
+				</div>
+			</section> <!-- /row Mis en avant -->
+		</main>
+
+		<!-- Pied de page -->
+		<footer class="container-fluid mt-4">
+			<div class="container">
+				<div class="row">
+					<!-- Subscribe -->
+					<div class="col-sm-6 col-lg-3">
+						<h1>SUBSCRIBE</h1>
+						<p>and get <span class="font-weight-bold">10% discount</span></p>
+						<form action="#" method="post">
+						  	<div class="form-group">
+								<input type="email" class="form-control rounded-pill text-center" placeholder="Enter your email">
+						 	</div>
+						  	<button class="btn btn-primary btn-block rounded-pill">SUBSCRIBE</button>
+						</form>
+					</div> <!-- /col subscribe -->
+
+					<!-- Customer Service -->
+					<div class="col-6 col-lg-3">
+						<h1>Customer Service</h1>
+						<p>Help Center</p>
+						<p>How to buy</p>
+						<p>Delivery</p>
+						<p>How to return</p>
+						<p>Payment Method</p>
+						<p>Shipping Method</p>
+					</div> <!-- /col Customer Service -->
+
+					<!-- Mimity -->
+					<div class="col-6 col-lg-3">
+						<h1>Mimity</h1>
+						<p>About Us</p>
+						<p>Terms and Conditions</p>
+						<p>Privacy Policy</p>
+						<p>FAQs</p>
+						<p>Our Story</p>
+						<p>Services</p>
+					</div> <!-- /col Mimity -->
+
+					<!-- Applications -->
+					<div class="col-sm-6 col-lg-3">
+						<h1>Download The App</h1>
+						<div class="d-flex">
+							<img src="assets/img/google-play.svg" alt="Google Play Logo" height="30px">
+							<div>
+							  	<p>Get it on</p>
+							  	<p>Google Play</p>
+							</div>
+						</div>
+					  	<div class="d-flex">
+							<img src="assets/img/apple.svg" alt="Apple Logo" height="30px">
+							<div>
+							  	<p>Download on the</p>
+							  	<p>App Store</p>
+							</div>
+						</div>
+						<div class="d-flex">
+							<img src="assets/img/windows.svg" alt="Windows Logo" height="30px">
+							<div>
+							  	<p>Get it from</p>
+							  	<p>Microsoft Store</p>
+							</div>
+						</div>
+					</div> <!-- /col Applications -->
+				</div> <!-- /row -->
+			</div> <!-- /container -->
+		</footer>
+
+		<!-- Barre copyright -->
+		<section class="container">
+			<div class="row">
+				<div class="col-12">
+
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

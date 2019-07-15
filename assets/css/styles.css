@@ -1,0 +1,55 @@
+@import url(bootstrap.css);
+@import url(all.css);
+#arrivals {
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+#arrivals:hover {
+  -webkit-transform: scale(1.5) rotate(45deg);
+          transform: scale(1.5) rotate(45deg);
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+}
+
+.card {
+  overflow: hidden;
+}
+
+#titre {
+  -webkit-animation: couleurs 3s infinite;
+          animation: couleurs 3s infinite;
+}
+
+@-webkit-keyframes couleurs {
+  from {
+    color: red;
+  }
+  33% {
+    color: green;
+  }
+  66% {
+    color: blue;
+  }
+  to {
+    color: red;
+  }
+}
+
+@keyframes couleurs {
+  from {
+    color: red;
+  }
+  33% {
+    color: green;
+  }
+  66% {
+    color: blue;
+  }
+  to {
+    color: red;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

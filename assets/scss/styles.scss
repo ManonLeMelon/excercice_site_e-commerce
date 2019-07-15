@@ -1,0 +1,35 @@
+@import "variables";
+
+@import "bootstrap.css";
+@import "all.css";
+
+#arrivals{
+	transition: 5s;
+	&:hover{
+		transform: scale(1.5) rotate(45deg);
+		transition: transform 2s;
+	}
+}
+
+.card{
+	overflow: hidden;
+}
+
+#titre{
+	animation: couleurs 3s infinite;
+}
+
+@keyframes couleurs{
+	from{
+		color: red;
+	}
+	33%{
+		color: green;
+	}
+	66%{
+		color: blue;
+	}
+	to{
+		color: red;
+	}
+}
